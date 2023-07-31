@@ -8,13 +8,10 @@ __Explanation:__
 
 The contract keeps track of user balances (balances), borrowed amounts (borrowedAmounts), collateral amounts (collateral), and user-specific interest rates (interestRates).
 
-Users can deposit funds into their accounts using the deposit function.
-
-Users can borrow funds against their collateral using the borrow function. The maximum amount that can be borrowed is limited to 75% of the user's collateral.
-
-Users can repay borrowed amounts using the repay function.
-
-Users can lock collateral using the lockCollateral function.
+ - Users can deposit funds into their accounts using the deposit function.
+ - Users can borrow funds against their collateral using the borrow function. The maximum amount that can be borrowed is limited to 75% of the user's collateral.
+ - Users can repay borrowed amounts using the repay function.
+ - Users can lock collateral using the lockCollateral function.
 
 Users can release part of their collateral using the releaseCollateral function.
 
