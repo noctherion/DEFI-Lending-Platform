@@ -12,10 +12,8 @@ The contract keeps track of user balances (balances), borrowed amounts (borrowed
  - Users can borrow funds against their collateral using the borrow function. The maximum amount that can be borrowed is limited to 75% of the user's collateral.
  - Users can repay borrowed amounts using the repay function.
  - Users can lock collateral using the lockCollateral function.
-
-Users can release part of their collateral using the releaseCollateral function.
-
-The calculateInterest function calculates the interest owed by a user based on their borrowed amount and interest rate. The interest rate is set per user using the setInterestRate function.
+ - Users can release part of their collateral using the releaseCollateral function.
+ - The calculateInterest function calculates the interest owed by a user based on their borrowed amount and interest rate. The interest rate is set per user using the setInterestRate function.
 
 __Interact with the Smart Contract:__
 
