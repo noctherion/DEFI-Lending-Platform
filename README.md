@@ -6,7 +6,7 @@ __Note:__ Please note that this implementation is for educational purposes only 
 
 __Explanation:__
 
-The contract keeps track of user balances (balances), borrowed amounts (borrowedAmounts), collateral amounts (collateral), and user-specific interest rates (interestRates).
+The contract keeps track of user balances (balances), borrowed amounts (borrowedAmounts), collateral amounts (collateral), and user-specific interest rates (interestRates):
 
  - Users can deposit funds into their accounts using the deposit function.
  - Users can borrow funds against their collateral using the borrow function. The maximum amount that can be borrowed is limited to 75% of the user's collateral.
